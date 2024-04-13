@@ -44,7 +44,21 @@ body{
     border-radius: 5px;
     padding: .5rem 1rem;
     margin: .5rem 0;
-    border: solid .5px #f0ebeb;
+    border: solid 1px #f0ebeb;
+}
+#post h2{
+    position: relative;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+#post h2::after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #f0ebeb;
 }
 .active{
     border: solid 3px red;
