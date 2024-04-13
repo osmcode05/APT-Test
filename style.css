@@ -14,10 +14,10 @@ body{
     left: 0;
     height: 100%;
     width: 25%;
-    padding: .5rem;
+    padding: .5rem 1rem;
 }
 #user{
-    border-radius: 10px;
+    border-radius: 30px;
     background: #fff;
     padding: .4rem 1rem;
     margin: .4rem 0;
@@ -30,21 +30,24 @@ body{
 #user p{
     font-size: .7rem;
 }
+.active{
+    border: solid 3px red;
+}
 .posts_container{
-    background-color: #fff;
+    background-color: #f0ebeb;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem ;
-    margin-left: calc(25% + .5rem);
+    margin-left: 25%;
     min-height: calc(100vh - 2rem);
 }
 #post{
     border-radius: 5px;
     padding: .5rem 1rem;
     margin: .5rem 0;
-    border: solid 1px #f0ebeb;
+    background-color: #fff;
 }
 #post h2{
     position: relative;
@@ -60,6 +63,4 @@ body{
     width: 100%;
     background: #f0ebeb;
 }
-.active{
-    border: solid 3px red;
-}
+
